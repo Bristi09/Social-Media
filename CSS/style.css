@@ -1,0 +1,640 @@
+
+
+
+
+
+/*=========================
+
+1. Common CSS
+2. Header Section
+3. About
+4. Help-you
+5. soif
+6. Brief
+7. Team
+8. Proof
+9. About-Us
+10. Schedule
+11. Start
+12. Question 
+13. Media Quary
+
+=========================*/
+
+
+
+/*=========================*/
+/* 1. Common CSS */
+/*=========================*/
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+.bgc-color {
+    background-color:#FF00A0;
+    color: rgb(255, 255, 255);
+    margin-top: 23px;
+    margin-bottom: 30px;
+    border-radius: 6%;
+}
+
+.bgc-color h3 {
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: -1px;
+    
+}
+
+.bgc-color:hover {
+    background-color:#ff00a2c7;
+    color: rgb(255, 255, 255);
+}
+.btn-btn {
+   
+    margin-bottom: 60px;
+}
+
+
+
+/*=========================*/
+/* 2. Start Header Section */
+/*=========================*/
+#header {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#002950;
+    color: rgba(0, 0, 0, 0.829);
+   
+}
+
+#header .h-p {
+    padding-top: 80px;
+}
+#header h1 {
+    font-weight: 900;
+    color: #FF00A0;
+   
+}
+#header p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 23px;
+}
+
+#header .bgc-color {
+    background-color:#FF00A0;
+    color: rgb(255, 255, 255);
+    margin-top: 23px;
+}
+#header .bgc-color:hover {
+    background-color:#ff00a2c7;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*=========================*/
+/* 3. Start About Section */
+/*=========================*/
+#About {
+    padding-top: 7rem;
+}
+#About h2 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: .9;
+    color: #002950;
+}
+#About ul li img {
+    width: 18px;
+    margin-right: 10px;
+}
+#About .readd {
+    font-weight: 900;
+}
+#About .readd1 {
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: -35px;
+}
+
+/*=========================*/
+/* 4. Help-you */
+/*=========================*/
+#Help-you {
+    background-color:  #242D4C;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+#Help-you ul li  {
+    
+   display: inline-block;
+   margin-left: 50px;
+}
+#Help-you .readd2 {
+    font-weight: 900;
+    font-size: 41px;
+}
+
+
+
+/*=========================*/
+/* 5. soif */
+/*=========================*/
+
+#soif {
+    background-color: #002950;
+    color: #fff;
+}
+#soif ul li img {
+    width: 50px;
+    margin: 25px 30px 25px 25px;
+    float: inline-start;
+}
+#soif ul li span {
+    font-size: 30px;
+    font-weight: 500; 
+    line-height: 1.6;
+}
+#soif ul li {
+    margin-top: 25px;
+    float: inline-start;
+}
+#soif ul li img.readd5 {
+    margin-top: -1px;
+}
+#soif h2 {
+    font-size: 72px;
+    font-weight: 900;
+    margin: 60px 0 60px 0;
+}
+
+/*=========================*/
+/* 6. Brief */
+/*=========================*/
+#Brief {
+    background-color: #F2F2F2;
+    padding-top: 50px;
+}
+#Brief p.readd7 {
+    margin-bottom: -20px;
+    letter-spacing: 2px;
+}
+#Brief .readd8 {
+   border-bottom: 1px dashed #000;
+   margin-bottom: 40px;
+}
+#Brief ul li img {
+    width: 15px;
+    margin: 35px 40px 35px 35px;
+    float: inline-start;
+}
+#Brief ul li span {
+    font-size: 27px;
+    font-weight: 400; 
+}
+#Brief ul li span b {
+    font-weight: 900;
+    font-size: 30px;
+}
+#Brief ul li {
+    margin-top: 25px;
+    float: inline-start;
+}
+#Brief ul li img.readd5 {
+    margin-top: -1px;
+}
+#Brief ul {
+    margin-bottom: 30px;
+}
+#Brief h2 {
+    font-size: 72px;
+    font-weight: 900;
+    margin: 60px 0 60px 0;
+}
+
+/*=========================*/
+/* 7. Team */
+/*=========================*/
+#Team {
+    background-color: #000C18;
+    padding: 60px 0 80px 0;
+    color: #fff;
+}
+#Team h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+#Team img {
+    width: 900px;
+}
+
+/*=========================*/
+/* 8. Proof */
+/*=========================*/
+#Proof .readd9 {
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 25px;
+}
+#Proof .proof-img {
+    width: 130px;
+}
+#Proof .text-pink {
+    color: #FF00A0;
+    font-size: 18px;
+    font-weight: 800;
+}
+#Proof .proof-p {
+    font-size: 20px;
+    line-height: 1.2;
+}
+#Proof ul li {
+    margin-top: 40px;
+}
+#Proof .readd11 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 160px;
+}
+
+
+/*=========================*/
+/* 9. About-Us */
+/*=========================*/
+#About-Us {
+    background-color: #002950;
+    color: #fff;
+    padding: 90PX 0 90PX 0 ;
+}
+#About-Us h2 {
+    font-weight: 800;
+}
+#About-Us .readd12 {
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+#About-Us .readd13 {
+    margin-top: 50px;
+}
+
+/*=========================*/
+/* 10. Schedule */
+/*=========================*/
+#Schedule {
+    padding: 80px 0 50px 0;
+}
+#Schedule .readd14 {
+    color:#FF00A0;
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: -5px;
+}
+#Schedule .readd15 {
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+}
+#Schedule .readd16 {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+#Schedule .readd17 {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+#Schedule .readd19 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+   
+}
+#Schedule .readd18 {
+    margin: 25px 15px 25px -25px;
+    float: inline-start;
+
+}
+#Schedule ul li {
+    margin-top: 10px;
+    float: inline-start;
+}
+#Schedule .readd20 {
+    height: 700px;
+}
+
+
+
+
+
+/*=========================*/
+/* 11. Start */
+/*=========================*/
+#Start {
+    background-color: #002950;
+    color: #fff;
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+#Start h2 {
+    font-size: 41px;
+    font-weight: 900;
+    letter-spacing: .01px;
+    word-spacing: .04px;
+    font-style: italic;
+}
+#Start .readd21 {
+    line-height: 1.1;
+}
+#Start .readd22 {
+    font-weight: 800;
+}
+#Start .btn-btn {
+    margin-top: 45px ;
+    
+}
+
+
+
+
+
+/*=========================*/
+/* 12. Question */
+/*=========================*/
+#Question {
+    padding: 100px 0 100px 0;
+}
+#Question  h4 {
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0 0 50px 300px;
+}
+
+#Question ul li img {
+    width: 50px;
+    margin: 32px 40px 37px 35px;
+    float: inline-start;
+}
+#Question ul li span {
+    font-size: 20px;
+    font-weight: 500; 
+}
+#Question ul li span b {
+    font-weight: 900;
+    font-size: 27px;
+}
+#Question ul li {
+    margin-top: 25px;
+    float: inline-start;
+}
+#Question ul {
+    margin-bottom: 30px;
+}
+
+
+/*=========================*/
+/* 12. Footer */
+/*=========================*/
+#Footer {
+    background-color: #002950;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#Footer li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+/*=========================*/
+/* 13. Media Quary*/
+/*=========================*/
+
+
+/* Media Quary - Proof   */
+@media only screen and (max-width: 1000px) {
+   
+    #Proof .readd32 {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    #Proof .readd11 {
+        
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 768px) {
+   
+    #Proof .readd9 {
+        font-size: 35px;
+    }
+    #Proof .readd11 {
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 562px) {
+   
+    #Proof .readd9 {
+        font-size: 25px;
+    }
+    #Proof .readd11 {
+        font-size: 25px;
+    }
+    #Proof p.readd34 {
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Quary -  About-Us  */
+@media only screen and (max-width: 986px) {
+    #About-Us {
+        width: 100%;
+    }
+    #About-Us .readd30 {
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 619px) {
+    #About-Us {
+        width: 100%;
+    }
+    #About-Us .readd31 {
+       font-size: 16px;
+    }
+    
+}
+
+
+
+
+/* Media Quary -  Schedule  */
+@media only screen and (max-width: 1000px) {
+    #Schedule .readd28 {
+        width: 70%;
+        margin: 60px 270px 60px 270px;
+    }
+    #Schedule .readd18 {
+        margin: 5px 15px 25px -25px;
+        float: inline-start;
+    
+    }
+}
+@media only screen and (max-width: 855px) {
+    #Schedule .readd28 {
+        width: 100%;
+        margin: 60px 20px 60px 20px;
+    }
+   }
+}
+@media only screen and (max-width: 468px) {
+    #Schedule .readd28 {
+        width: 70%;
+        margin: 60px 200px 60px 200px;
+    }
+    #Schedule .readd14 {
+        font-size: 17px;
+    }
+    #Schedule .readd15 {
+        font-size: 22px;
+    }
+    #Schedule .readd16 {
+        font-size: 16px;
+    }
+    #Schedule .readd17 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 855px) {
+    #Schedule .readd15 {
+        font-size: 22px;
+    }
+    #Schedule .readd14 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    #Schedule .readd17 {
+        font-size: 13px;
+    }
+    #Schedule .readd16 {
+        font-size: 13px;
+    }
+    #Schedule .readd19 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Quary - Question */
+@media only screen and (max-width: 768px) {
+    #Start {
+        padding-top: 80px;
+    }
+    #Start h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .bgc-color h3 {
+        font-size: 28px;
+        
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    
+    #Start .readd21 {
+        font-size: 12px;
+    }
+    .bgc-color h3 {
+        font-size: 18px;
+        
+}
+
+/* Media Quary - Footer */
+@media only screen and (max-width: 1212px) {
+    .readd27 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1005px) {
+    #Question  h4{
+            margin: 0 0 50px 0;  
+    }
+}
+@media only screen and (max-width: 1005px) {
+    #Question  h4{
+            margin: 0 0 50px 0;  
+            font-size: 39px;
+    }
+}
+@media only screen and (max-width: 526px) {
+    #Question  h4{
+            margin: 0 0 30px 0;  
+            font-size: 34px;
+    }
+
+    #Question {
+        padding: 50px 0 50px 0;
+    }
+
+    #Question ul li img {
+        width: 30px;
+        margin: 20px 5px 47px 0px;
+    }
+
+    #Question ul li span {
+        font-size: 16px; 
+    }
+
+    #Question ul li span b {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
